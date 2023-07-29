@@ -13,7 +13,6 @@
     "lint:fix": "eslint --fix --ext js,jsx,ts,tsx src/",
     "prettier": "prettier --check \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\"",
     "prettier:fix": "prettier --write \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\"",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -30,7 +29,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "redux": "^4.2.1"
+    "redux": "^4.2.1",
+    "sweetalert2": "^11.7.20"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
