@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
 }
 
 :root {
@@ -59,4 +61,16 @@
   --z-index-low: 100;
   --z-index-search-results-home: 99;
   --z-index-back: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
 }
